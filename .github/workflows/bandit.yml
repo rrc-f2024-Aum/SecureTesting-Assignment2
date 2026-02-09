@@ -1,7 +1,9 @@
 name: Bandit
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: 
+  push: null
+  pull_request: null
 
 jobs:
   analyze:
